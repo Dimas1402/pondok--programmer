@@ -1,0 +1,43 @@
+.carousel{
+    height: 100vh;
+
+    li{
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+    }
+}
+.carousel-inner{
+    .card{
+        position: absolute;
+        width: 80%;
+        background: none;
+        top: 200px;
+        border:none;
+        left: 10%;
+        
+    }
+    h5{
+        position:absolute;
+        color: white;
+        top: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 60px;
+    }
+    p{
+        position: absolute;
+        top: 100px;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+@media only screen and(max-width:800px){
+    .carousel{
+       img{
+           height: 100vh;
+       }
+    }
+}
