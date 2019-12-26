@@ -1,0 +1,37 @@
+.collapse-list{
+    width: 100%;
+    .card{
+        border-radius: 20px;
+    }
+ 
+    .card-header{
+        background: #00aa88ff;
+    }
+    .card-body{
+        border: none;
+        background: #f5f5f5;
+        text-decoration: none;
+        outline: none;
+        font-weight: bold;
+        color: rgb(104, 100, 100);
+    }
+    
+    
+       
+  h2{
+    color: white;
+    font-weight: bold;
+  }
+
+  button{
+      background: none;
+      color: white;
+      outline: none;
+      text-decoration: none;
+     &:hover{
+         background: none;
+         text-decoration: none;
+         color: rgb(236, 213, 213);
+     }
+  }
+}

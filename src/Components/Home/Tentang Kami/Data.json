@@ -1,0 +1,116 @@
+{
+    "Data" : [
+        {
+            "id":1,
+            "judul":"Jurusan apa saja di Pondok Programmer ?",
+            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "idTarget":"id1",
+            "Target":"id1",
+            "Collapse":"collapseOne",
+            "collapseTarget":"#collapseOne",
+            "Heading":"headingOne",
+            "headingTarget":"#headingOne"
+        },
+        {
+            "id":1,
+            "judul":"Dimana lokasi Pondok Programmer ?",
+            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "idTarget":"id2",
+            "Target":"id2",
+            "Collapse":"collapseTwo",
+            "collapseTarget":"#collapseTwo",
+            "Heading":"headingTwo",
+            "headingTarget":"#headingTwo"
+        },
+        {
+            "id":1,
+            "judul":"Siapa saja yang dapat bergabung ?",
+            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "idTarget":"id3",
+            "Target":"id3",
+            "Collapse":"collapseThree",
+            "collapseTarget":"#collapseThree",
+            "Heading":"headingThree",
+            "headingTarget":"#headingThree"
+        },
+        {
+            "id":1,
+            "judul":"Berapa lama waktu belajarnya ?",
+            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "idTarget":"id4",
+            "Target":"id4",
+            "Collapse":"collapseFour",
+            "collapseTarget":"#collapseFour",
+            "Heading":"headingFour",
+            "headingTarget":"#headingFour"
+        },
+        {
+            "id":1,
+            "judul":"Kapan mulai pendaftarannya ?",
+            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "idTarget":"id5",
+            "Target":"id5",
+            "Collapse":"collapseFive",
+            "collapseTarget":"#collapseFive",
+            "Heading":"headingFive",
+            "headingTarget":"#headingFive"
+        }
+    ],
+    "Data2":[
+        {
+            "id":1,
+            "judul":"Mengapa Pondok Programmer  bisa 100% gratis ?",
+            "isi":"Bagaiamana Lingkunaannya?",
+            "idTarget":"id6",
+            "Target":"id6",
+            "Collapse":"collapseSix",
+            "collapseTarget":"#collapseSix",
+            "Heading":"headingSix",
+            "headingTarget":"#headingSix"
+        },
+        {
+            "id":1,
+            "judul":"Bagaiamana Lingkungannya ?",
+            "isi":"Bagaiamana Lingkunaannya?",
+            "idTarget":"id7",
+            "Target":"id7",
+            "Collapse":"collapseSeven",
+            "collapseTarget":"#collapseSeven",
+            "Heading":"headingSeven",
+            "headingTarget":"#headingSeven"
+        },
+        {
+            "id":1,
+            "judul":"Apa saja yang dipelajari ?",
+            "isi":"Bagaiamana Lingkunaannya?",
+            "idTarget":"id8",
+            "Target":"id8",
+            "Collapse":"collapseEight",
+            "collapseTarget":"#collapseEight",
+            "Heading":"headingEight",
+            "headingTarget":"#headingEight"
+        },
+        {
+            "id":1,
+            "judul":"Apa saja persyaratannya ?",
+            "isi":"Bagaiamana Lingkunaannya?",
+            "idTarget":"id9",
+            "Target":"id9",
+            "Collapse":"collapseNine",
+            "collapseTarget":"#collapseNine",
+            "Heading":"headingNine",
+            "headingTarget":"#headingNine"
+        },
+        {
+            "id":1,
+            "judul":"Tujuan Pondok Programmer ?",
+            "isi":"Bagaiamana Lingkunaannya?",
+            "idTarget":"id10",
+            "Target":"id10",
+            "Collapse":"collapseTen",
+            "collapseTarget":"#collapseTen",
+            "Heading":"headingTen",
+            "headingTarget":"#headingTen"
+        }
+    ]
+}

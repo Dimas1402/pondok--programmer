@@ -7,6 +7,7 @@ import NavbarContainer from '../../Container/Navbar/NavbarContainer'
 import Pendidikan from './Pendidikan/Pendidikan'
 import Support from "./Support/Support"
 import TentangKami from './Tentang Kami/TentangKami'
+import ListTentangKami from './Tentang Kami/List'
 
 const Home = () => {
   return (
@@ -25,6 +26,9 @@ const Home = () => {
           </div>
           <div className='col-md-12 pendidikan' id="Tentang">
             <TentangKami/>
+          </div>
+          <div className="col-md-12">
+            <ListTentangKami/>
           </div>
           <div className='col-md-12 mt-5'>
             <Support/>
