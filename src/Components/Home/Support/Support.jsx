@@ -18,7 +18,7 @@ const Support = () => {
                     </div>
                     <div className="col-md-3">
                     <div className="card">
-                        <img src={zahir} alt=""/>
+                        <img src="https://pondokit.com/img/brand/zahir.png" alt=""/>
                     </div>
                     </div>
                     <div className="col-md-3">
