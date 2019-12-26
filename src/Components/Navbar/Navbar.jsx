@@ -19,7 +19,7 @@ const Navbar = ({ background, boxShadow, idnav }) => {
         aria-expanded='false'
         aria-label='Toggle navigation'
       >
-        <span className='navbar-toggler-icon' />
+     <i style={{color:"white"}} className="fa fa-stream"></i>
       </button>
       <div className='collapse navbar-collapse navbar-utama' id='navbarNav'>
         <div className='mr-auto'></div>
