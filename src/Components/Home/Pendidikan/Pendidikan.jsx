@@ -5,7 +5,7 @@ const Pendidikan = () => {
   return (
     <div className='row row-pendidikan'>
       <div className='col-md-12 col-pendidikan text-center'>
-        <h1 style={{ color: '#00aa88ff' }}>Fokus Pendidikan</h1>
+        <h1  style={{ color: '#00aa88ff' }}>Fokus Pendidikan</h1>
       </div>
       <div className='col-md-12 mb-5 pb-5'>
         <div className='row'>

@@ -9,7 +9,7 @@ const Caraousel = () => {
   return (
     <div
       id='carouselExampleIndicators'
-      className='carousel slide c-box'
+      className='carousel slide c-box mb-5'
       data-ride='carousel'
     >
       <ol className='carousel-indicators'>
@@ -22,7 +22,7 @@ const Caraousel = () => {
         <li data-target='#carouselExampleIndicators' data-slide-to={2} />
         <li data-target='#carouselExampleIndicators' data-slide-to={3} />
       </ol>
-      <div className='carousel-inner '>
+      <div className='carousel-inner' id="Beranda">
         <div className='carousel-item active  '>
           <div className='card'>
             <div className='card-body'>

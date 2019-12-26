@@ -6,6 +6,7 @@ import './Home.scss'
 import NavbarContainer from '../../Container/Navbar/NavbarContainer'
 import Pendidikan from './Pendidikan/Pendidikan'
 import Support from "./Support/Support"
+import TentangKami from './Tentang Kami/TentangKami'
 
 const Home = () => {
   return (
@@ -16,17 +17,16 @@ const Home = () => {
 
       <div className='container-fluid'>
         <div className='row'>
-          <div className='col-md-12 mt-5'></div>
-          <div className='col-md-12 pendidikan'>
-            <Pendidikan />
+          <div className='col-md-12 pendidikan' id="Pendidikan">
+            <Pendidikan/>
           </div>
           <div className='col-md-12 teknologi'>
             <Teknologi />
           </div>
-          <div className='col-md-12'>
-            <h1>ok</h1>
+          <div className='col-md-12 pendidikan' id="Tentang">
+            <TentangKami/>
           </div>
-          <div className='col-md-12'>
+          <div className='col-md-12 mt-5'>
             <Support/>
           </div>
         </div>
