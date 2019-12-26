@@ -1,13 +1,89 @@
-.title-teknologi{
-    .card{
-        width: 40%;
-        border-radius: 20px;
-        position: absolute;
-        bottom: -50px;
-        box-shadow: 0 0 12px #7777;
-        h1{
-            font-weight: bold;
-            color: #00aa88ff;   
-        }
+.title-teknologi {
+  .card {
+    width: 40%;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -50px;
+    box-shadow: 0 0 12px #7777;
+    h1 {
+      font-weight: bold;
+      color: #00aa88ff;
     }
+  }
+}
+
+.swiper-box-tech {
+  margin-top: 100px;
+  img {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+  }
+}
+
+// swiper js
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  -webkit-box-shadow: -4px 2px 26px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 2px 26px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 2px 26px -5px rgba(0, 0, 0, 0.75);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination {
+}
+
+.swiper-pagination-bullet {
+}
+
+@media only screen and(max-width:800px) {
+  .title-teknologi {
+    h1 {
+      font-size: 20px;
+    }
+  }
+  .swiper-box-tech {
+    margin-top: 100px;
+    img {
+      width: 150px;
+      height: 150px;
+      margin-top: 0px;
+    }
+  }
+}
+@media only screen and(max-width:500px) {
+  .swiper-box-tech {
+    margin-top: 100px;
+    img {
+      width: 60px;
+      height: 80px;
+      margin-top: 0px;
+    }
+  }
+  .swiper-slide {
+    width: 100%;
+  }
+}
+
+@media only screen and(min-width:1024px) {
+  .carousel {
+    height: 550px;
+  }
 }

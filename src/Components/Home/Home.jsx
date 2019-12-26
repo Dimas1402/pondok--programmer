@@ -4,6 +4,7 @@ import Teknologi from './Teknologi/Teknologi'
 import './Home.scss'
 // import WithNavbar from '../Navbar/WithNavbar'
 import NavbarContainer from '../../Container/Navbar/NavbarContainer'
+import Pendidikan from './Pendidikan/Pendidikan'
 
 const Home = () => {
   return (
@@ -12,14 +13,17 @@ const Home = () => {
       <Caraousel />
       <div className='container-fluid'>
         <div className='row'>
-          <div className='col-md-12'>
-            <h1 style={{ height: '50vh' }} className='text-center'>
-              Pendidikan
-            </h1>
-            {/* isi fokus pendidikan marrrr */}
+          <div className='col-md-12 pendidikan'>
+            <Pendidikan/>
           </div>
           <div className='col-md-12 teknologi'>
             <Teknologi />
+          </div>
+          <div className="col-md-12">
+            <h1>ok</h1>
+          </div>
+          <div className="col-md-12">
+            {/* tentang pondok programmer */}
           </div>
         </div>
       </div>
