@@ -9,6 +9,9 @@ $bg: #FEF5DF;
 
 
 
+
+//card
+
  .card-box-pen{
     position: relative;
     cursor: pointer;
@@ -102,10 +105,47 @@ font-size: 100px;
 }
   
 
-@media only screen and(max-width:1024px) {
+@media only screen and(max-width:1024px){
+    .col-pendidikan {
+        margin-top: 20px;
+      }
+    
+      .card-box-pen .face{
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+      
+        
+    }
+    .card-box-pen .face.face1 .content h3{
+        font-size: 1em;
+    }
+    .card-box-pen .face.face2 .content p{
+       
+        font-size: 12px;
+    }
+
+}
+@media only screen and(max-width:768px) {
   .col-pendidikan {
     margin-top: 20px;
   }
+
+  .card-box-pen .face{
+    width: 150px;
+    height: 200px;
+    margin-left: -35px;
+  
+    
+}
+.card-box-pen .face.face1 .content h3{
+    font-size: 1em;
+}
+.card-box-pen .face.face2 .content p{
+   
+    font-size: 12px;
+}
+
 }
 
 
