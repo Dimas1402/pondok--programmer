@@ -1,12 +1,15 @@
 $bg: #FEF5DF;
 .col-pendidikan {
-  margin-top: 140px;
+
   h1 {
     color: #00aa88ff;
     font-weight: bold;
   }
 }
 
+.row-pendidikan{
+    margin-top: 16%;
+}
 
 
 
@@ -87,6 +90,8 @@ font-size: 100px;
  .card-box-pen .face.face2 .content p{
     margin: 0;
     padding: 0;
+    font-weight: bold;
+    color: rgb(110, 108, 105);
 }
 
  .card-box-pen .face.face2 .content a{
@@ -106,9 +111,19 @@ font-size: 100px;
   
 
 @media only screen and(max-width:1024px){
-    .col-pendidikan {
-        margin-top: 20px;
-      }
+    // .col-pendidikan {
+       
+    //     h1 {
+    //         margin-top: 30px;
+    //       color: #00aa88ff;
+    //       font-weight: bold;
+    //     }
+    //   }
+      
+    
+    // .col-pendidikan {
+    //     margin-top: 20px;
+    //   }
     
       .card-box-pen .face{
         width: 200px;
@@ -127,9 +142,9 @@ font-size: 100px;
 
 }
 @media only screen and(max-width:768px) {
-  .col-pendidikan {
-    margin-top: 20px;
-  }
+//   .col-pendidikan {
+//     margin-top: 20px;
+//   }
 
   .card-box-pen .face{
     width: 150px;
@@ -153,4 +168,18 @@ font-size: 100px;
     .card-box-pen{
         margin-left: 40px;
     }
+}
+
+@media only screen and(max-width:500px) {
+    .card-box-pen{
+        margin-left: 25px;
+    }
+    .card-box-pen .face{
+        width: 300px;
+        height: 200px;
+        margin-left: 0px;
+      
+        
+    }
+
 }
