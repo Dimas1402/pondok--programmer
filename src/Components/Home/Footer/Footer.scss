@@ -1,0 +1,81 @@
+.Footers{
+    .terhubung{
+        background: #00a988;
+    }
+    .all {
+        background: #2E2E2E;
+        position: relative;
+        p{
+            font-size: 14px;
+        }
+        hr.hr{
+            position: absolute;
+            width: 11%;
+            top: 20px;
+            height: 3px;
+            left: right;
+            background: #258875;
+        }
+        hr.rr{
+            position: absolute;
+            width: 11%;
+            top: 20px;
+            height: 3px;
+            right: 0;
+            background: #258875;
+        }
+        .contact{
+            // width: 50%;
+            float: left;
+                    // h2{
+                    //     border-bottom: 4px solid #258875 ;
+                    //     width: 25%;
+                    // }
+        }
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .contact{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
