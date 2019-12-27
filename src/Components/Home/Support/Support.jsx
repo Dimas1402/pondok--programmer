@@ -8,7 +8,7 @@ const Support = () => {
             <div className="col-md-12 text-center h1-support">
                 <h1>Supported By</h1>
             </div>
-            <div className="col-md-12 support-col mt-5 ">
+            <div className="col-md-12 support-col mt-5 mb-5">
             <div className="col-md-12 d-flex justify-content-center ">
                 <div className="row">
                     <div className="col-md-3">

@@ -10,7 +10,7 @@ const ListTentangKami = () => {
           <div className='accordion collapse-list' id='accordionExample'>
             {Data.Data.map(res => (
               <div
-              key={res.id}
+                key={res.id}
                 data-toggle='collapse'
                 data-target={res.collapseTarget}
                 aria-expanded='false'
@@ -19,7 +19,6 @@ const ListTentangKami = () => {
               >
                 <div className='card-header' id={res.Heading}>
                   <h2 className='mb-0 h2-list'>
-               
                     <button
                       className='btn btn-link collapsed text-left'
                       type='button'
@@ -28,7 +27,7 @@ const ListTentangKami = () => {
                       aria-expanded='false'
                       aria-controls={res.Collapse}
                     >
-                     <i className="fa fa-question-circle"></i>  {res.judul}
+                      <i className='fa fa-question-circle'></i> {res.judul}
                     </button>
                   </h2>
                 </div>
@@ -52,7 +51,7 @@ const ListTentangKami = () => {
           <div className='accordion collapse-list' id='accordionExample1'>
             {Data.Data2.map(res => (
               <div
-              key={res.id}
+                key={res.id}
                 data-toggle='collapse'
                 data-target={res.collapseTarget}
                 aria-expanded='false'
@@ -61,8 +60,6 @@ const ListTentangKami = () => {
               >
                 <div className='card-header' id={res.Heading}>
                   <h2 className='mb-0 h2-list'>
-
-                 
                     <button
                       className='btn btn-link collapsed'
                       type='button'
@@ -70,7 +67,9 @@ const ListTentangKami = () => {
                       data-target={res.collapseTarget}
                       aria-expanded='false'
                       aria-controls={res.Collapse}
-                    >  <i className="fa fa-question-circle"></i> {res.judul}
+                    >
+                      {' '}
+                      <i className='fa fa-question-circle'></i> {res.judul}
                     </button>
                   </h2>
                 </div>
