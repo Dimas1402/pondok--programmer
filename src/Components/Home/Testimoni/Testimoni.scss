@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap");
+$font: "Quicksand", sans-serif;
+$font2: "Montserrat", sans-serif;
+
+.row-testimoni{
+  
+}
+.testimoni-title{
+  font-weight: bold;
+}
+.test {
+  font-family: $font;
+  margin-top: 150px;
+  background: lightgrey;
+  padding-bottom: 150px;
+  h1{
+    color: #00A988;
+  }
+}
+.card-img {
+  .card {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    width: 400px;
+  }
+
+  h5{
+    font-weight: bold;
+  }
+
+  i{
+      color: #00A988;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    z-index: 20;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  
+}
+
+
+@media only screen and(max-width:400px){
+  .card-img{
+    .card{
+     position: relative;
+   left:4px ;
+    }
+  }
+}
+
+
+@media only screen and(max-width:800px){
+  .card-img{
+    .card{
+  width: 300px;
+    }
+  }
+}
