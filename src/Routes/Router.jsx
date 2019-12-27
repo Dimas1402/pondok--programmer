@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from '../Components/Home/Home';
-import Copyright from '../Components/Copyright/Copyright';
+// import Copyright from '../Components/Copyright/Copyright';
 
 const Routes = () => {
     return (
@@ -9,7 +9,7 @@ const Routes = () => {
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>
-        <Copyright/>
+        {/* <Copyright/> */}
       </Router>
     );
   };

@@ -20,9 +20,9 @@ const Footers = () => {
       </div>
       <div className="row all">
         <div className="container ">
-          <div className="col-md-12 text-white cf mt-3">
+          <div className="col-md-12 text-white cf mt-3 mt-5 mb-5">
             <div className="contact mr-4">
-                    <h2>Contact</h2>
+                    <h2 className="pb-4">Contact</h2>
                     {/* <hr className="hr mb-5"/> */}
                     <p>
                       <i className="fa fa-map-marker mr-3"></i>
@@ -39,7 +39,7 @@ const Footers = () => {
                     </p>
             </div>
             <div className="tentang">
-                    <h2>Tentang</h2>
+                    <h2  className="pb-4">Tentang</h2>
                     {/* <hr className="rr "/> */}
                     <p>Pondok Programmer merupakan komunitas IT berbasis pondok yang senantiasa berusaha mendidik santrinya untuk berakhlaq mulia, profesional serta bermanfaat untuk ummat.</p>
             </div>
