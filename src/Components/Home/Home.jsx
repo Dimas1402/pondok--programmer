@@ -9,6 +9,7 @@ import Support from "./Support/Support"
 import TentangKami from './Tentang Kami/TentangKami'
 import ListTentangKami from './Tentang Kami/List'
 import Presentase from './Pendidikan/Presentase'
+import Testimoni from './Testimoni/Testimoni'
 import Portofolio from './Portofolio/Portofolio'
 
 const Home = () => {
@@ -38,6 +39,9 @@ const Home = () => {
           </div>
           <div className="col-md-12 portofolio">
             <Portofolio/>
+          </div>
+          <div className='col-md-12'>
+            <Testimoni/>
           </div>
         </div>
       </div>
