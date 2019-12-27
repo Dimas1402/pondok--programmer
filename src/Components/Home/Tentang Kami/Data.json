@@ -12,7 +12,7 @@
             "headingTarget":"#headingOne"
         },
         {
-            "id":1,
+            "id":2,
             "judul":"Dimana lokasi Pondok Programmer ?",
             "isi":"Jurusan apa saja di Pondok Programmer?",
             "idTarget":"id2",
@@ -23,7 +23,7 @@
             "headingTarget":"#headingTwo"
         },
         {
-            "id":1,
+            "id":3,
             "judul":"Siapa saja yang dapat bergabung ?",
             "isi":"Jurusan apa saja di Pondok Programmer?",
             "idTarget":"id3",
@@ -34,7 +34,7 @@
             "headingTarget":"#headingThree"
         },
         {
-            "id":1,
+            "id":4,
             "judul":"Berapa lama waktu belajarnya ?",
             "isi":"Jurusan apa saja di Pondok Programmer?",
             "idTarget":"id4",
@@ -45,7 +45,7 @@
             "headingTarget":"#headingFour"
         },
         {
-            "id":1,
+            "id":5,
             "judul":"Kapan mulai pendaftarannya ?",
             "isi":"Jurusan apa saja di Pondok Programmer?",
             "idTarget":"id5",
@@ -58,7 +58,7 @@
     ],
     "Data2":[
         {
-            "id":1,
+            "id":6,
             "judul":"Mengapa Pondok Programmer  bisa 100% gratis ?",
             "isi":"Bagaiamana Lingkunaannya?",
             "idTarget":"id6",
@@ -69,7 +69,7 @@
             "headingTarget":"#headingSix"
         },
         {
-            "id":1,
+            "id":7,
             "judul":"Bagaiamana Lingkungannya ?",
             "isi":"Bagaiamana Lingkunaannya?",
             "idTarget":"id7",
@@ -80,7 +80,7 @@
             "headingTarget":"#headingSeven"
         },
         {
-            "id":1,
+            "id":8,
             "judul":"Apa saja yang dipelajari ?",
             "isi":"Bagaiamana Lingkunaannya?",
             "idTarget":"id8",
@@ -91,7 +91,7 @@
             "headingTarget":"#headingEight"
         },
         {
-            "id":1,
+            "id":9,
             "judul":"Apa saja persyaratannya ?",
             "isi":"Bagaiamana Lingkunaannya?",
             "idTarget":"id9",
@@ -102,7 +102,7 @@
             "headingTarget":"#headingNine"
         },
         {
-            "id":1,
+            "id":10,
             "judul":"Tujuan Pondok Programmer ?",
             "isi":"Bagaiamana Lingkunaannya?",
             "idTarget":"id10",

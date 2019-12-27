@@ -8,14 +8,13 @@ import Pendidikan from './Pendidikan/Pendidikan'
 import Support from "./Support/Support"
 import TentangKami from './Tentang Kami/TentangKami'
 import ListTentangKami from './Tentang Kami/List'
+import Presentase from './Pendidikan/Presentase'
 
 const Home = () => {
   return (
     <>
       <NavbarContainer />
-
       <Caraousel />
-
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-md-12 pendidikan' id="Pendidikan">
@@ -23,6 +22,9 @@ const Home = () => {
           </div>
           <div className='col-md-12 teknologi'>
             <Teknologi />
+          </div>
+          <div className="col-md-12">
+            <Presentase/>
           </div>
           <div className='col-md-12 pendidikan' id="Tentang">
             <TentangKami/>

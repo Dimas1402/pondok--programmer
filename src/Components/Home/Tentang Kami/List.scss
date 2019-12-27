@@ -2,6 +2,7 @@
     width: 100%;
     .card{
         border-radius: 20px;
+        cursor: pointer;
     }
  
     .card-header{
@@ -34,4 +35,12 @@
          color: rgb(236, 213, 213);
      }
   }
+}
+
+@media only screen and(max-width:800px){
+    .collapse-list{
+        .card-body{
+            font-size: 5px;
+        }
+    }
 }
