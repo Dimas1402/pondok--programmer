@@ -9,7 +9,7 @@ import Sidik from "../../../Asset/people/sidik.jpg";
 
 const Testimoni = () => {
   return (
-    <div className="row test mb-5 d-flex justify-content-center row-testimoni">
+    <div className="row test mb-5 mt-5 d-flex justify-content-center row-testimoni">
       <div className="col-md-12  text-center">
         {/* <ScrollAnimation animateIn="fadeInDown"> */}
           <h1 className="testimoni-title">Testimoni</h1>
