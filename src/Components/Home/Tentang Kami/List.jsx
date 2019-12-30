@@ -1,14 +1,17 @@
 import React from 'react'
 import Data from './Data.json'
 import './List.scss'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 const ListTentangKami = () => {
   return (
     <div className='row mt-5'>
       <div className='col-md-6'>
+      <ScrollAnimation animateOnce={true}  animateIn="zoomIn">
         <div className='row m-2'>
           <div className='accordion collapse-list' id='accordionExample'>
             {Data.Data.map(res => (
+             
               <div
                 key={res.id}
                 data-toggle='collapse'
@@ -38,15 +41,19 @@ const ListTentangKami = () => {
                   data-parent='#accordionExample'
                 >
                   <div className='card-body'>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    <h5> Anim pariatur cliche reprehenderit, enim eiusmod high life</h5>
                   </div>
                 </div>
               </div>
+             
             ))}
           </div>
+          
         </div>
+        </ScrollAnimation>
       </div>
       <div className='col-md-6'>
+      <ScrollAnimation animateOnce={true}  animateIn="zoomIn">
         <div className='row m-2'>
           <div className='accordion collapse-list' id='accordionExample1'>
             {Data.Data2.map(res => (
@@ -87,6 +94,7 @@ const ListTentangKami = () => {
             ))}
           </div>
         </div>
+        </ScrollAnimation>
       </div>
     </div>
   )

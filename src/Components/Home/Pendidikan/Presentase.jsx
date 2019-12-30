@@ -1,11 +1,14 @@
 import React from 'react'
 import './Presentase.scss'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 const Presentase = () => {
     return (
         <div className='row mt-5 row-presentase'>
         <div className='col-md-12'>
+        <ScrollAnimation animateOnce={true} delay={500} animateIn='fadeInDown'>
             <h1 className='text-center'>Presentase Pendidikan</h1>
+            </ScrollAnimation>
         </div>
         <div
             className='col-md-12 d-flex justify-content-center '

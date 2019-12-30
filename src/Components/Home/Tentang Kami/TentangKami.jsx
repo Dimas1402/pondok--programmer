@@ -1,11 +1,14 @@
 import React from 'react'
 import './TentangKami.scss'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 const TentangKami = () => {
   return (
     <div className='row'>
       <div className='col-md-12 mt-5 pb-5 pt-5 tentang-kami text-center'>
+      <ScrollAnimation animateOnce={true}  animateIn='fadeInDown'>
         <h1 className='text-white'>Tentang Pondok Programmer</h1>
+        </ScrollAnimation>
         <div className="container">
         <h3 className='pt-5 text-white'>
           Pondok Programmmer adalah sebuah tempat pendidikan programming non

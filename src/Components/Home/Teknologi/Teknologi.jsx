@@ -1,6 +1,7 @@
 import React from 'react'
 import './Teknologi.scss'
 import Swiper from 'swiper'
+import ScrollAnimation from 'react-animate-on-scroll'
 import st1 from '../../../Asset/Teknologi/st1.png'
 import st2 from '../../../Asset/Teknologi/st2.png'
 import st3 from '../../../Asset/Teknologi/st3.png'
@@ -16,78 +17,85 @@ import st12 from '../../../Asset/Teknologi/st12.png'
 import st13 from '../../../Asset/Teknologi/st13.png'
 
 class Teknologi extends React.Component {
-    componentDidMount () {
-        new Swiper('.swiper-container', {
-        slidesPerView: 4,
-        spaceBetween: 30,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-          },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true
-        }
-        })
-    }
+  componentDidMount () {
+    new Swiper('.swiper-container', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      }
+    })
+  }
     render () {
         return (
         <div className='row'>
             <div className='col-md-12 d-flex justify-content-center title-teknologi'>
             <div className='card text-center'>
+            <ScrollAnimation
+                    animateOnce={true}
+                    delay={500}
+                    animateIn='fadeInDown'
+                >
                 <div className='card-body'>
-                <h1>Stack Technology</h1>
+            
+                    <h1>Stack Technology</h1>
+              
                 </div>
+                </ScrollAnimation>
             </div>
             </div>
             <div className='col-md-12 swiper-box-tech '>
             <div className='swiper-container'>
                 <div className='swiper-wrapper'>
                 <div className='swiper-slide'>
-                    <img src={st1} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/html-5.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st2} alt='' />{' '}
+                    <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt='' />{' '}
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st3} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st4} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/javascript.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st5} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st6} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/php.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st7} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/mysql-5.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st8} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/laravel.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st9} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st10} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/java-4.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st11} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/android-studio-logo.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st12} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/c--4.svg" alt='' />
                 </div>
                 <div className='swiper-slide'>
-                    <img src={st13} alt='' />
+                    <img src="https://cdn.worldvectorlogo.com/logos/unity-technologies-logo.svg" alt='' />
                 </div>
                 </div>
                 {/* Add Pagination */}
-               
             </div>
-            <div className="d-flex justify-content-center">
-            <div className='swiper-pagination' />
+            <div className='d-flex justify-content-center'>
+                <div className='swiper-pagination' />
             </div>
             </div>
         </div>

@@ -5,17 +5,17 @@ import Bae from "../../../Asset/people/bae.jpg";
 import Roihan from "../../../Asset/people/roihan.jpg";
 import Wahyudi from "../../../Asset/people/wahyudi.jpg";
 import Sidik from "../../../Asset/people/sidik.jpg";
-// import ScrollAnimation from "react-animate-on-scroll";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Testimoni = () => {
   return (
     <div className="row test mb-5 mt-5 d-flex justify-content-center row-testimoni">
       <div className="col-md-12  text-center">
-        {/* <ScrollAnimation animateIn="fadeInDown"> */}
+        <ScrollAnimation animateOnce={true} animateIn="fadeInDown">
           <h1 className="testimoni-title">Testimoni</h1>
-        {/* </ScrollAnimation> */}
+        </ScrollAnimation>
       </div>
-      {/* <ScrollAnimation animateIn="fadeIn"> */}
+      <ScrollAnimation animateOnce={true} delay={1000} animateIn="zoomIn">
         <div className="col-md-12 card-img ">
           <div className="row">
             <div className="col-md-6">
@@ -66,8 +66,8 @@ const Testimoni = () => {
             </div>
           </div>
         </div>
-      {/* </ScrollAnimation> */}
-      {/* <ScrollAnimation animateIn="fadeIn"> */}
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce={true} delay={1000} animateIn="zoomIn">
         <div className="col-md-12 card-img">
           <div className="row">
             <div className="col-md-4">
@@ -145,7 +145,7 @@ const Testimoni = () => {
             </div>
           </div>
         </div>
-      {/* </ScrollAnimation> */}
+      </ScrollAnimation>
     </div>
   );
 };

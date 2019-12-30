@@ -12,6 +12,7 @@ import Presentase from './Pendidikan/Presentase'
 import Testimoni from './Testimoni/Testimoni'
 import Portofolio from './Portofolio/Portofolio'
 import Footers from "../Footer/Footer"
+import Copyright from "../Copyright/Copyright"
 
 const Home = () => {
   return (
@@ -47,7 +48,9 @@ const Home = () => {
           <div className='col-md-12'>
             <Footers/>
           </div>
-          <div className="col-md-12"></div>
+          <div className="col-md-12">
+            <Copyright/>
+          </div>
         </div>
       </div>
     </>

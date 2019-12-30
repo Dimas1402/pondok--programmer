@@ -6,7 +6,11 @@ font-family: 'Quicksand', sans-serif;;
 
 
 .navbar-utama{
+    li{
+        margin-right: 15px;
+    }
     a{
+     
         color: white;
         font-weight: bold;
         &:hover{
@@ -59,4 +63,18 @@ font-family: 'Quicksand', sans-serif;;
     to {
         opacity: 1;
     }
+}
+
+.box-login{
+
+  border-radius: 10px;
+  a{
+      color:#153e60 ;
+  }
+  &:hover{
+
+      a{
+        color:#184e7a ;
+      }
+  }
 }

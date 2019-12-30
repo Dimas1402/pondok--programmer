@@ -13,11 +13,13 @@
 }
 
 .swiper-box-tech {
+  
   margin-top: 100px;
   img {
-    width: 200px;
-    height: 200px;
-    margin-top: 30px;
+    
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
   }
 }
 
@@ -29,10 +31,8 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
-  -webkit-box-shadow: -4px 2px 26px -5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -4px 2px 26px -5px rgba(0, 0, 0, 0.75);
-  box-shadow: -4px 2px 26px -5px rgba(0, 0, 0, 0.75);
+  background: #f5f5f5;
+height: 200px;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,6 +66,13 @@
       height: 150px;
       margin-top: 0px;
     }
+  }
+  .swiper-slide {
+ 
+    background: none;
+  }
+  .swiper-container{
+    background: white;
   }
 }
 @media only screen and(max-width:500px) {

@@ -60,9 +60,11 @@ const Navbar = ({ background, boxShadow, idnav }) => {
             </a>
           </li>
           <li className='nav-item'>
+            <div className="box-login">
             <a className='nav-link' href='#Login'>
               Login
             </a>
+            </div>
           </li>
         </ul>
       </div>

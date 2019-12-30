@@ -5,6 +5,7 @@ import asset3 from '../../Asset/Home/Asset3.png'
 import asset4 from '../../Asset/Home/Asset4.png'
 import './Caraousel.scss'
 
+
 const Caraousel = () => {
   return (
     <div
