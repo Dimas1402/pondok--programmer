@@ -14,7 +14,7 @@
         {
             "id":2,
             "judul":"Dimana lokasi Pondok Programmer ?",
-            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "isi":"Gegunung, Tirtohargo, Kretek, Bantul, DI Yogyakarta",
             "idTarget":"id2",
             "Target":"id2",
             "Collapse":"collapseTwo",
@@ -25,7 +25,7 @@
         {
             "id":3,
             "judul":"Siapa saja yang dapat bergabung ?",
-            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "isi":"Anak lulusan SMA/SMK yang mempunyai minat dan bakat (PASSION) di bidang IT (PROGRAMMING) yang dia bersungguh-sungguh, berakhlak baik, mempunyai Logika yang bagus.",
             "idTarget":"id3",
             "Target":"id3",
             "Collapse":"collapseThree",
@@ -36,7 +36,7 @@
         {
             "id":4,
             "judul":"Berapa lama waktu belajarnya ?",
-            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "isi":"Di Pondok Programmer ini santri akan belajar selama 3 Tahun, tetapi jika sudah siap bekerja dalam 6 Bulan pertama, maka akan disalurkan (bekerja, kerja remote, membangun Startup)",
             "idTarget":"id4",
             "Target":"id4",
             "Collapse":"collapseFour",
@@ -47,7 +47,7 @@
         {
             "id":5,
             "judul":"Kapan mulai pendaftarannya ?",
-            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "isi":"Klik Ini",
             "idTarget":"id5",
             "Target":"id5",
             "Collapse":"collapseFive",
@@ -60,18 +60,18 @@
         {
             "id":6,
             "judul":"Mengapa Pondok Programmer  bisa 100% gratis ?",
-            "isi":"Bagaiamana Lingkunaannya?",
+            "isi":"Mengapa Gratis? Karena Pondok Programmer memfokuskan kepada anak-anak yang kurang mampu secara ekonomi namun mempunyai minat dan bakat dalam bidang IT khususnya pemrograman",
             "idTarget":"id6",
             "Target":"id6",
             "Collapse":"collapseSix",
             "collapseTarget":"#collapseSix",
             "Heading":"headingSix",
-            "headingTarget":"#headingSix"
+              "headingTarget":"#headingSix"
         },
         {
             "id":7,
             "judul":"Bagaiamana Lingkungannya ?",
-            "isi":"Bagaiamana Lingkunaannya?",
+            "isi":"Karakter seseorang sangat dipengaruhi oleh lingkungan tempat di tanggal dan bersama siapa seseorang bergaul. Ketika kita tinggal di lingkungan perokok maupun bergaul dengan perokok minimal kita akan menghirup asap rokok, bisa jadi kita akan ikut ketularan merokok bahkan kecanduan. Ketika kita tinggal bersama penjual minyak wangi minimal kita akan menghirup bau harum, bahkan jika beruntung kita kecipratan minyak wangi dan kitapun jadi wangi. Begitu juga jika kita bergaul dengan orang yang rajin sholat berjama’ah, puasa, ngaji, orang sholeh, Maka kita berharap kita ikut menjadi seperti itu. Ketika kita melakukan ibadah sendiri biasanya akan terasa berat, namun jika ada teman yang senantiasa mengingatkan dan mengajak kebaikan maka ibadah itu menjadi lebih ringan. Lingkungan dan budaya islami senantiasa berusaha dijaga di Pondok IT.",
             "idTarget":"id7",
             "Target":"id7",
             "Collapse":"collapseSeven",
@@ -85,8 +85,8 @@
             "isi":"Bagaiamana Lingkunaannya?",
             "idTarget":"id8",
             "Target":"id8",
-            "Collapse":"collapseEight",
             "collapseTarget":"#collapseEight",
+            "Collapse":"collapseEight",
             "Heading":"headingEight",
             "headingTarget":"#headingEight"
         },
@@ -104,7 +104,7 @@
         {
             "id":10,
             "judul":"Tujuan Pondok Programmer ?",
-            "isi":"Bagaiamana Lingkunaannya?",
+            "isi":"Tujuan pondok IT menyiapkan pemuda IT yang BERTAQWA, PROFESIONAL, MANDIRI, BERBAGI.",
             "idTarget":"id10",
             "Target":"id10",
             "Collapse":"collapseTen",

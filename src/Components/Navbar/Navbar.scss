@@ -25,6 +25,10 @@ font-family: 'Quicksand', sans-serif;;
     }
 }
 
+.fixed-top{
+    z-index:900 !important;
+}
+
 #navbar-one{
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */

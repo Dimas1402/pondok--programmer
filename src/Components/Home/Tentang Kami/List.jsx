@@ -41,7 +41,7 @@ const ListTentangKami = () => {
                   data-parent='#accordionExample'
                 >
                   <div className='card-body'>
-                    <h5> Anim pariatur cliche reprehenderit, enim eiusmod high life</h5>
+                    <h6> {res.isi}</h6>
                   </div>
                 </div>
               </div>
@@ -87,7 +87,7 @@ const ListTentangKami = () => {
                   data-parent='#accordionExample1'
                 >
                   <div className='card-body'>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  <h6> {res.isi}</h6>
                   </div>
                 </div>
               </div>

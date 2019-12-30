@@ -2,19 +2,7 @@ import React from 'react'
 import './Teknologi.scss'
 import Swiper from 'swiper'
 import ScrollAnimation from 'react-animate-on-scroll'
-import st1 from '../../../Asset/Teknologi/st1.png'
-import st2 from '../../../Asset/Teknologi/st2.png'
-import st3 from '../../../Asset/Teknologi/st3.png'
-import st4 from '../../../Asset/Teknologi/st4.png'
-import st5 from '../../../Asset/Teknologi/st5.png'
-import st6 from '../../../Asset/Teknologi/st6.png'
-import st7 from '../../../Asset/Teknologi/st7.png'
-import st8 from '../../../Asset/Teknologi/st8.png'
-import st9 from '../../../Asset/Teknologi/st9.png'
-import st10 from '../../../Asset/Teknologi/st10.png'
-import st11 from '../../../Asset/Teknologi/st11.png'
-import st12 from '../../../Asset/Teknologi/st12.png'
-import st13 from '../../../Asset/Teknologi/st13.png'
+
 
 class Teknologi extends React.Component {
   componentDidMount () {

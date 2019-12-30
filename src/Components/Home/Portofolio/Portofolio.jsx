@@ -3,7 +3,7 @@ import './Portofolio.scss'
 import Data from './Data.json'
 import ScrollAnimation from 'react-animate-on-scroll'
 
-const Portofolio = () => {
+const Portofolio = (props) => {
   return (
     <div className='row mt-5 mb-5'>
       <div className='col-md-12 h1-portofolio text-center'>
@@ -23,7 +23,7 @@ const Portofolio = () => {
                     animateIn='zoomIn'
                   >
                     <div className='card'>
-                      <img src={res.img} className='card-img-top' alt='...' />
+                      <img onClick={() => props.handleChange(res)} src={res.img} className='card-img-top' alt='...' />
                     </div>
                   </ScrollAnimation>
                 </div>

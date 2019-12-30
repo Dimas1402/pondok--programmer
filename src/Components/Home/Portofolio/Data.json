@@ -1,47 +1,47 @@
 {
     "Data": [
         {
-            "id":1,
+            "id":0,
             "img":"https://res.cloudinary.com/dy3wesqxd/image/upload/v1575200129/DImas%20nitip/osans-lp_rrywpb.png",
             "delay":"1500"
         },
         {
-            "id":2,
+            "id":1,
             "img":"https://res.cloudinary.com/dy3wesqxd/image/upload/v1575200131/DImas%20nitip/osans_w0szxk.png",
             "delay":"1700"
         },
         {
-            "id":3,
+            "id":2,
             "img":"https://res.cloudinary.com/dy3wesqxd/image/upload/v1575200141/DImas%20nitip/beta_se4ixd.png",
             "delay":"1900"
         },
         {
-            "id":4,
+            "id":3,
             "img":"https://i.pinimg.com/originals/b3/a9/6e/b3a96e628394e49a011610afa37ae896.png",
             "delay":"1500"
         },
         {
-            "id":5,
+            "id":4,
             "img":"https://res.cloudinary.com/dy3wesqxd/image/upload/v1575200160/DImas%20nitip/aiwah_jlbwa0.png",
             "delay":"1700"
         },
         {
-            "id":6,
+            "id":5,
             "img":"https://i.pinimg.com/originals/58/2d/22/582d2228ee92da0e24eff059294fe925.png",
             "delay":"1900"
         },
         {
-            "id":7,
+            "id":6,
             "img":"https://i.pinimg.com/originals/e4/cd/ed/e4cded865191591c0ca5f250fda3c8a9.png",
             "delay":"1500"
         },
         {
-            "id":8,
+            "id":7,
             "img":"https://i.pinimg.com/originals/a9/13/20/a91320f4d3828e04bbbfe575c77b3b11.png",
             "delay":"1700"
         },
         {
-            "id":9,
+            "id":8,
             "img":"https://i.pinimg.com/originals/7c/44/d6/7c44d67c99467e1dc157dc5d954e2891.png",
             "delay":"1900"
         }
