@@ -3,7 +3,7 @@
         {
             "id":1,
             "judul":"Jurusan apa saja di Pondok Programmer ?",
-            "isi":"Jurusan apa saja di Pondok Programmer?",
+            "isi":"",
             "idTarget":"id1",
             "Target":"id1",
             "Collapse":"collapseOne",
@@ -60,7 +60,7 @@
         {
             "id":6,
             "judul":"Mengapa Pondok Programmer  bisa 100% gratis ?",
-            "isi":"Mengapa Gratis? Karena Pondok Programmer memfokuskan kepada anak-anak yang kurang mampu secara ekonomi namun mempunyai minat dan bakat dalam bidang IT khususnya pemrograman",
+            "isi":"Santri baru yang masuk Pondok Programmer bebas biaya dari pendaftaran sampai lulus. Bagaimana mungkin santri bisa bebas biaya sementara dalam kesehariannya perlu makan, minum, tempat tinggal dan sarana prasarana?ini adalah pertanyaan yang sering muncul kepada kami. Sumber pendanaan Pondok Programmer berasal dari kakak kelas yang telah mandiri (yang berkerja). Jadi biaya makan, tempat tinggal dan operasional bulanan di tanggung bersama oleh kakak kelas yang mandiri. Inilah Konsep amal jariyah Pondok Programmer. Kakak kelas membiayai adik kelas. Suatu saat adik kelas akan menjadi kakak kelas ketika sudah siap dan mandiri. Selain itu juga ada donatur yang menyumbangkan hartanya untuk operasional Pondok Programmer.",
             "idTarget":"id6",
             "Target":"id6",
             "Collapse":"collapseSix",
@@ -70,8 +70,8 @@
         },
         {
             "id":7,
-            "judul":"Bagaiamana Lingkungannya ?",
-            "isi":"Karakter seseorang sangat dipengaruhi oleh lingkungan tempat di tanggal dan bersama siapa seseorang bergaul. Ketika kita tinggal di lingkungan perokok maupun bergaul dengan perokok minimal kita akan menghirup asap rokok, bisa jadi kita akan ikut ketularan merokok bahkan kecanduan. Ketika kita tinggal bersama penjual minyak wangi minimal kita akan menghirup bau harum, bahkan jika beruntung kita kecipratan minyak wangi dan kitapun jadi wangi. Begitu juga jika kita bergaul dengan orang yang rajin sholat berjama’ah, puasa, ngaji, orang sholeh, Maka kita berharap kita ikut menjadi seperti itu. Ketika kita melakukan ibadah sendiri biasanya akan terasa berat, namun jika ada teman yang senantiasa mengingatkan dan mengajak kebaikan maka ibadah itu menjadi lebih ringan. Lingkungan dan budaya islami senantiasa berusaha dijaga di Pondok IT.",
+            "judul":"Bagaimana Lingkungannya ?",
+            "isi":"Karakter seseorang sangat dipengaruhi oleh lingkungan tempat di tanggal dan bersama siapa seseorang bergaul. Ketika kita tinggal di lingkungan perokok maupun bergaul dengan perokok minimal kita akan menghirup asap rokok, bisa jadi kita akan ikut ketularan merokok bahkan kecanduan. Ketika kita tinggal bersama penjual minyak wangi minimal kita akan menghirup bau harum, bahkan jika beruntung kita kecipratan minyak wangi dan kitapun jadi wangi. Begitu juga jika kita bergaul dengan orang yang rajin sholat berjama’ah, puasa, ngaji, orang sholeh, Maka kita berharap kita ikut menjadi seperti itu. Ketika kita melakukan ibadah sendiri biasanya akan terasa berat, namun jika ada teman yang senantiasa mengingatkan dan mengajak kebaikan maka ibadah itu menjadi lebih ringan. Lingkungan dan budaya islami senantiasa berusaha dijaga di Pondok Programmer.",
             "idTarget":"id7",
             "Target":"id7",
             "Collapse":"collapseSeven",
@@ -80,9 +80,9 @@
             "headingTarget":"#headingSeven"
         },
         {
-            "id":8,
+            "id"    :8,
             "judul":"Apa saja yang dipelajari ?",
-            "isi":"Bagaiamana Lingkunaannya?",
+            "isi":"",
             "idTarget":"id8",
             "Target":"id8",
             "collapseTarget":"#collapseEight",
@@ -93,7 +93,7 @@
         {
             "id":9,
             "judul":"Apa saja persyaratannya ?",
-            "isi":"Bagaiamana Lingkunaannya?",
+            "isi":"",
             "idTarget":"id9",
             "Target":"id9",
             "Collapse":"collapseNine",
@@ -104,7 +104,7 @@
         {
             "id":10,
             "judul":"Tujuan Pondok Programmer ?",
-            "isi":"Tujuan pondok IT menyiapkan pemuda IT yang BERTAQWA, PROFESIONAL, MANDIRI, BERBAGI.",
+            "isi":"Tujuan Pondok Programmer menyiapkan pemuda IT yang BERTAQWA, PROFESIONAL, MANDIRI, BERBAGI.",
             "idTarget":"id10",
             "Target":"id10",
             "Collapse":"collapseTen",
@@ -112,5 +112,60 @@
             "Heading":"headingTen",
             "headingTarget":"#headingTen"
         }
+    ],
+    "Persyaratan":[
+        {
+            "id": 1,
+            "title":"Laki - laki"
+        },  
+        {
+            "id": 2,
+            "title":" Lulus SMA/SMK (Tidak sedang bekerja atau kuliah)"
+        },
+        {
+            "id": 3,
+            "title":"Dapat izin Orang Tua"
+        },
+        {
+            "id": 4,
+            "title":"Belum Menikah"
+        },
+        {
+            "id": 5,
+            "title":"Maksimal umur 22 Tahun"
+        },
+        {
+            "id": 6,
+            "title":"Punya laptop atau Pinjam dulu"
+        },  
+        {
+            "id": 7,
+            "title":" Passion (Menyukai Hobi) terkait Dunia IT"
+        },
+        {
+            "id": 8,
+            "title":" Tidak merokok"
+        },
+        {
+            "id": 9,
+            "title":"Siap tinggal di Asrama"
+        },
+        {
+            "id": 10,
+            "title":"Berkepribadian baik ( Semangat belajar, Suka tantangan, Pantang Menyerah, Tidak Malas, Kemauan Tinggi, Berkomitmen Kuat)"
+        },
+        {
+            "id": 11,
+            "title":" Mempunyai Komitmen dan Sungguh - sungguh"
+        },
+        {
+            "id": 12,
+            "title":"Laki - laki"
+        },
+        {
+            "id": 13,
+            "title":") Bagi TIDAK sesuai Persyaratan bisa menggunakan Jalur Utusan: Jalurutusan.pondokit.com Hub : 085228802828"
+        }
+
     ]
 }

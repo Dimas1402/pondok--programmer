@@ -63,4 +63,19 @@ $font2: "Montserrat", sans-serif;
   width: 300px;
     }
   }
+
+  .card-img .card{
+    width: 230px !important;
+    p{
+      font-size: 12px;
+    }
+  }
+}
+
+
+@media only screen and(max-width:1024px){
+  .card-img .card{
+    width: 305px;
+
+  }
 }

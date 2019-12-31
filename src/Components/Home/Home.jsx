@@ -5,14 +5,15 @@ import './Home.scss'
 // import WithNavbar from '../Navbar/WithNavbar'
 import NavbarContainer from '../../Container/Navbar/NavbarContainer'
 import Pendidikan from './Pendidikan/Pendidikan'
-import Support from "./Support/Support"
+import Support from './Support/Support'
 import TentangKami from './Tentang Kami/TentangKami'
 import ListTentangKami from './Tentang Kami/List'
 import Presentase from './Pendidikan/Presentase'
 import Testimoni from './Testimoni/Testimoni'
-import Footers from "../Footer/Footer"
-import Copyright from "../Copyright/Copyright"
+import Footers from '../Footer/Footer'
+import Copyright from '../Copyright/Copyright'
 import PortofolioContainer from '../../Container/Home/PortofolioContainer'
+import Lokasi from './Lokasi/Lokasi'
 
 const Home = () => {
   return (
@@ -21,35 +22,38 @@ const Home = () => {
       <Caraousel />
       <div className='container-fluid'>
         <div className='row'>
-          <div className='col-md-12 pendidikan' id="Pendidikan">
-            <Pendidikan/>
+          <div className='col-md-12 pendidikan' id='Pendidikan'>
+            <Pendidikan />
           </div>
           <div className='col-md-12 teknologi'>
             <Teknologi />
           </div>
-          <div className="col-md-12">
-            <Presentase/>
+          <div className='col-md-12'>
+            <Presentase />
           </div>
-          <div className='col-md-12 pendidikan' id="Tentang">
-            <TentangKami/>
+          <div className='col-md-12 pendidikan' id='Tentang'>
+            <TentangKami />
           </div>
-          <div className="col-md-12">
-            <ListTentangKami/>
+          <div className='col-md-12'>
+            <ListTentangKami />
           </div>
           <div className='col-md-12 mt-5'>
-            <Support/>
+            <Support />
           </div>
-          <div className="col-md-12 portofolio">
-           <PortofolioContainer/>
-          </div>
-          <div className='col-md-12'>
-            <Testimoni/>
+          <div className='col-md-12 portofolio'>
+            <PortofolioContainer />
           </div>
           <div className='col-md-12'>
-            <Footers/>
+            <Testimoni />
           </div>
-          <div className="col-md-12">
-            <Copyright/>
+          <div className='col-md-12'>
+            <Lokasi />
+          </div>
+          <div className='col-md-12'>
+            <Footers />
+          </div>
+          <div className='col-md-12'>
+            <Copyright />
           </div>
         </div>
       </div>

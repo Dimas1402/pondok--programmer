@@ -37,6 +37,15 @@
      }
   }
 }
+.list-list{
+    li{
+        background: none;
+        border: none;
+    }
+    i{
+        color: rgb(51, 87, 14);
+    }
+}
 
 @media only screen and(max-width:800px){
     .collapse-list{
