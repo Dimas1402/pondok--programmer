@@ -47,6 +47,22 @@
     }
 }
 
+.btn-daftar{
+    button{
+        box-shadow: 0px 0px 11px rgba(0,0,0,0.3);
+        background: none;
+        font-weight: bold;
+        color: #00aa88ff;
+        border: 3px solid #00aa88ff;
+        padding: 20px;
+        border-radius:50px;
+        &:hover{
+            color: white;
+            background: rgb(5, 125, 101);
+        }
+    }
+}
+
 @media only screen and(max-width:800px){
     .collapse-list{
         .card-body{

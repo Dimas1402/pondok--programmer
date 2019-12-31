@@ -150,6 +150,9 @@ const ListTentangKami = () => {
           </div>
         </ScrollAnimation>
       </div>
+      <div className="col-md-12 btn-daftar mt-5 d-flex justify-content-center">
+      <button type="button" className="btn "> <i className="fa fa-edit"></i> Daftar Sekarang</button>
+      </div>
     </div>
   )
 }
