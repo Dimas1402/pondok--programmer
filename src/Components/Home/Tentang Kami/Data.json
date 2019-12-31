@@ -47,7 +47,7 @@
         {
             "id":5,
             "judul":"Kapan mulai pendaftarannya ?",
-            "isi":"Klik Ini",
+            "isi":"",
             "idTarget":"id5",
             "Target":"id5",
             "Collapse":"collapseFive",

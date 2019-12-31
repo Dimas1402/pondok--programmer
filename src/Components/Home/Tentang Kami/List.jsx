@@ -2,6 +2,7 @@ import React from 'react'
 import Data from './Data.json'
 import './List.scss'
 import ScrollAnimation from 'react-animate-on-scroll'
+import { Link } from 'react-router-dom'
 
 const ListTentangKami = () => {
   return (
@@ -67,6 +68,8 @@ const ListTentangKami = () => {
                           </ul>
                         </div>
                       ) : null}
+
+                      {res.id === 5 ?  <a target='_blank' href='http://www.pendaftaran.pondokit.com'>Klik Ini</a> : null }
                     </div>
                   </div>
                 </div>
@@ -111,6 +114,7 @@ const ListTentangKami = () => {
                   >
                     <div className='card-body'>
                       <h6> {res.isi}</h6>
+
                       {res.id === 8 ? (
                         <div>
                           <ul className='list-group list-list'>
@@ -150,8 +154,13 @@ const ListTentangKami = () => {
           </div>
         </ScrollAnimation>
       </div>
-      <div className="col-md-12 btn-daftar mt-5 d-flex justify-content-center">
-      <a href="www.pendaftaran.pondokit.com"> <button  type="button" classNae="btn ">  <i className="fa fa-edit"></i> Daftar Sekarang </button></a> 
+      <div className='col-md-12 btn-daftar mt-5 d-flex justify-content-center'>
+        <a target='_blank' href='http://www.pendaftaran.pondokit.com'>
+          <button type='button' classNae='btn'>
+            {' '}
+            <i className='fa fa-edit'></i> Daftar Sekarang{' '}
+          </button>
+        </a>
       </div>
     </div>
   )
