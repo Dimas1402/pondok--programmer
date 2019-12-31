@@ -151,7 +151,7 @@ const ListTentangKami = () => {
         </ScrollAnimation>
       </div>
       <div className="col-md-12 btn-daftar mt-5 d-flex justify-content-center">
-      <button type="button" className="btn "> <i className="fa fa-edit"></i> Daftar Sekarang</button>
+      <a href="www.pendaftaran.pondokit.com"> <button  type="button" classNae="btn ">  <i className="fa fa-edit"></i> Daftar Sekarang </button></a> 
       </div>
     </div>
   )
