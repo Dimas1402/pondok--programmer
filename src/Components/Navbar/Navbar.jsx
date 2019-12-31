@@ -63,13 +63,13 @@ const Navbar = ({ background, boxShadow, idnav }) => {
               Blog
             </a>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <div className="box-login">
             <a className='nav-link' href='#Login'>
               Login
             </a>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
