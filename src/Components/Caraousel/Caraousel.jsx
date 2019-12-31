@@ -44,7 +44,7 @@ const Caraousel = () => {
               <h5>PROFESIONAL</h5>
               <p>
                 Fokus pendidikan santri dalam bidang pemograman meliputi
-                pemahaman dasar algoritma pemograman pengunaan library dan
+                pemahaman dasar algoritma pemograman, pengunaan library, dan
                 framework serta project challange
               </p>
             </div>
