@@ -25,7 +25,7 @@ const Home = () => {
           <div className='col-md-12 pendidikan' id='Pendidikan'>
             <Pendidikan />
           </div>
-          <div className='col-md-12 teknologi'>
+          <div className='col-md-12 teknologi'  >
             <Teknologi />
           </div>
           <div className='col-md-12'>
@@ -37,13 +37,13 @@ const Home = () => {
           <div className='col-md-12'>
             <ListTentangKami />
           </div>
-          <div className='col-md-12 mt-5'>
+          <div className='col-md-12 mt-5' id='Support'>
             <Support />
           </div>
-          <div className='col-md-12 portofolio'>
+          <div className='col-md-12 portofolio' id='Portofolio'>
             <PortofolioContainer />
           </div>
-          <div className='col-md-12'>
+          <div className='col-md-12' id='Testimoni' >
             <Testimoni />
           </div>
           <div className='col-md-12'>

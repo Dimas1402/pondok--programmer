@@ -2,7 +2,7 @@ import React from 'react'
 import Data from './Data.json'
 import './List.scss'
 import ScrollAnimation from 'react-animate-on-scroll'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const ListTentangKami = () => {
   return (
@@ -69,7 +69,7 @@ const ListTentangKami = () => {
                         </div>
                       ) : null}
 
-                      {res.id === 5 ?  <a target='_blank' href='http://www.pendaftaran.pondokit.com'>Klik Ini</a> : null }
+                      {res.id === 5 ?  <a target='_blank' rel="noopener noreferrer" href='http://www.pendaftaran.pondokit.com'>Klik Ini</a> : null }
                     </div>
                   </div>
                 </div>
@@ -155,7 +155,7 @@ const ListTentangKami = () => {
         </ScrollAnimation>
       </div>
       <div className='col-md-12 btn-daftar mt-5 d-flex justify-content-center'>
-        <a target='_blank' href='http://www.pendaftaran.pondokit.com'>
+        <a target='_blank' rel="noopener noreferrer" href='http://www.pendaftaran.pondokit.com'>
           <button type='button' classNae='btn'>
             {' '}
             <i className='fa fa-edit'></i> Daftar Sekarang{' '}

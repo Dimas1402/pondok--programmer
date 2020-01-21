@@ -56,20 +56,17 @@ const Navbar = ({ background, boxShadow, idnav }) => {
           </li>
           <li className='nav-item'>
             <a className='nav-link' href='#Testimoni'>
-              Akademi            </a>
+            Kurikulum           </a>
           </li>
           <li className='nav-item'>
             <a className='nav-link' href='#Blog'>
               Blog
             </a>
           </li>
-          {/* <li className='nav-item'>
-            <div className="box-login">
-            <a className='nav-link' href='#Login'>
-              Login
-            </a>
-            </div>
-          </li> */}
+          <li className='nav-item'>
+            <a className='nav-link' href='#Blog'>
+              Login            </a>
+          </li>
         </ul>
       </div>
     </nav>

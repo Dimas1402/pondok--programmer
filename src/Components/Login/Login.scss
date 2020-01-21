@@ -1,0 +1,33 @@
+.login-container{
+    background:linear-gradient(to right,rgba(0,0,0,0.7) ,rgba(0,0,0,0.7)),url('https://store-images.s-microsoft.com/image/apps.32256.14224494707314076.8116b5ee-01ee-49e4-827c-bc6739343224.90a3690d-d956-4e1a-a673-1871117b442a?mode=scale&q=90&h=720&w=1280');
+    height: 100vh;
+    padding: 0;
+    border-radius:0 !important;
+    background-size:cover ;
+  
+}
+
+.login-center{
+   
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    /* W3C */
+    display: box;
+    box-pack: center;
+    box-align: center;
+    height: 100vh;
+}
+
+.login-box{
+   border: 2px solid white;
+   background: white;
+   img{
+       width: 50%;
+   }
+ 
+}
